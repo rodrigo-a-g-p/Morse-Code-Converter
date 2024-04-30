@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Monteserrat", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+}
+
+:root {
+  --hover-color: rgb(229, 182, 94);
+}
+
+.navbar {
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  padding: 2rem 1.5rem;
+}
+
+.navbar-title:link,
+.navbar-title:visited {
+  font-size: 3rem;
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.5s;
+}
+
+.navbar-title:hover,
+.navbar-title:active {
+  color: var(--hover-color);
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 25rem 0;
+  gap: 6rem;
+}
+
+.form-input {
+  font-size: 5rem;
+  text-align: center;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+}
+
+.form-button {
+  border: none;
+  background-color: #000;
+  color: #fff;
+  font-size: 4rem;
+  border-radius: 0.5rem;
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.form-button:hover {
+  background-color: var(--hover-color);
+}
+
+.message-container {
+  display: flex;
+  justify-content: center;
+  padding: 10rem 5rem;
+}
+
+.message {
+  font-size: 10rem;
+}
+
+.footer {
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 1.5rem;
+
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.icons-container {
+  display: flex;
+  gap: 5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.icon:link,
+.icon:visited {
+  font-size: 3rem;
+  color: #fff;
+  transition: all 0.5s;
+}
+
+.icon:hover,
+.icon:active {
+  color: var(--hover-color);
+}
+
+.footer-text {
+  font-size: 2rem;
+  color: #fff;
+  transition: all 0.5s;
+}
+
+.footer-text:hover {
+  color: var(--hover-color);
+}

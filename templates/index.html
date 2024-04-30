@@ -1,0 +1,11 @@
+{% include "header.html" %}
+
+{% block content %}
+<form class="form" action="{{url_for('get_morse_message')}}" method="post">
+    <input class="form-input" type="text" placeholder="Top secret message..." name="message" required>
+    <button class="form-button" type="submit">Encrypt</button>
+</form>
+{% endblock %}
+
+{% include "footer.html" %}
+
